@@ -13,9 +13,9 @@ class HeuristicTSP implements Callable<HeuristicTSP>, Comparable<HeuristicTSP> {
   static float[][] map;
 
   int id;
+  int mode;
   double cost;
   int[] route;
-  int mode;
 
   HeuristicTSP(float[][] map) {
     HeuristicTSP.map = map;
